@@ -1,0 +1,9 @@
+sample_dict={
+    "name":"harsh",
+    "age":20,
+    "Roll_no":102317160,
+    "city":"Hoshiarpur"
+}
+sample_dict["Location"]=sample_dict.pop("city")
+print(sample_dict)
+print("\n")
